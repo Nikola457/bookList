@@ -1,0 +1,68 @@
+.book-name{
+    color: black;
+   text-align:center;
+    font-size: 31px;
+}
+.heading-index{
+    margin-top:30px;
+    margin-left:30px;
+}
+.card-div{
+    width:90%;
+    display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(450px, 0.5fr));
+    justify-content: center;
+    margin-left:30px;
+    gap:30px;
+}
+#cke_top_contenteditor,
+#cke_contents_contenteditor,
+#cke_bottom_contenteditor {
+   border: none;
+}
+#navbar li a{
+    color:rgb(211, 129, 23);
+    transition:0.5s;
+}
+#navbar li a:hover{
+    color:rgb(252, 212, 160);
+    transform:scale(1.1);
+}
+table{
+    width:100%;
+}
+table tr:nth-child(odd){
+    background:rgb(182, 181, 181);
+    color:white;
+}
+#cke_contents_contenteditor {
+   background: transparent;
+}
+.row {
+    justify-content: center;
+}
+.card-book{
+    border:1px solid rgba(1,1,1,0.2);
+    width:100%;
+    margin-top:20px;
+    padding:20px;
+    flex: 1 1 160px; 
+}
+#edit{
+    float:right;
+    margin-top:10px;
+}
+#written{
+    float:right;  
+    padding-top:20px;  
+    color:rgb(54, 152, 218);
+}
+#written-author{
+    float:left;    
+    color:rgb(54, 152, 218);
+}
+.pagination {
+    position: relative; 
+left: 45%;
+margin-top:20px;
+}
